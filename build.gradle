@@ -19,7 +19,24 @@ ext {
 
 dependencies {
     implementation 'com.vaadin:vaadin-spring-boot-starter'
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation'org.springframework.boot:spring-boot-starter-web'
+
+    runtimeOnly'mysql:mysql-connector-java'
+    runtimeOnly('com.h2database:h2')
+    testImplementation'org.springframework.boot:spring-boot-starter-test'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
 dependencyManagement {
