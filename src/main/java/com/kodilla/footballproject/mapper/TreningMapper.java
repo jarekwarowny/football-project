@@ -4,8 +4,6 @@ import com.kodilla.footballproject.domain.Trening;
 import com.kodilla.footballproject.dto.TreningDto;
 import com.kodilla.footballproject.exception.TeamNotFoundException;
 import com.kodilla.footballproject.repository.TeamRepository;
-import com.kodilla.footballproject.service.TeamDBService;
-import com.kodilla.footballproject.service.TreningDBService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

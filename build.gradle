@@ -24,6 +24,7 @@ dependencies {
     implementation 'junit:junit:4.13.1'
     implementation 'junit:junit:4.13.1'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'com.google.code.gson:gson'
 
     implementation'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation'org.springframework.boot:spring-boot-starter-web'

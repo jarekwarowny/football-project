@@ -1,7 +1,6 @@
 package com.kodilla.footballproject;
 
-import com.kodilla.footballproject.domain.Player;
-import com.kodilla.footballproject.dto.PlayerDto;
+import com.kodilla.footballproject.domain.Player;;
 import com.kodilla.footballproject.repository.PlayerRepository;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
